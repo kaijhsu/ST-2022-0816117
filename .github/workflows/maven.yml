@@ -26,4 +26,5 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: list directory
       run: ls -a
-    - name: javac ./src/test/java/PriorityQueueTest.java
+    - name: run PriorityQueueTest
+      run: javac ./src/test/java/PriorityQueueTest.java
